@@ -1,0 +1,86 @@
+# Docker Files
+Dockerfile
+.dockerignore
+docker-compose.yml
+docker-compose.override.yml
+**/Dockerfile*
+**/docker-compose.yml
+**/docker-compose.override.yml
+
+# Docker directories and files
+.docker/
+docker-compose.override.yml
+docker-compose*.yml
+docker-compose*.yaml
+
+# Ignore containers and images
+**/containers/
+**/images/
+
+# Bash and Shell Scripts
+*.sh
+*.bash
+*.zsh
+*.env.sh
+*.env.bash
+*.bash_profile
+*.bashrc
+*.zshrc
+*.sh_history
+*.bash_history
+
+# Anydesk
+anydesk.conf
+.anydesk/
+*.anydesk
+
+# Azure Configuration
+*.azure/
+azure-pipelines.yml
+**/azure-pipelines/
+**/azure-pipelines.yml
+*.azureconfig
+*.azureignore
+*.azurecli
+**/.azure/
+
+# General Sensitive Files
+*.env
+.env.*
+*.secret
+*.vault_pass
+
+# SSH Keys
+id_rsa
+id_rsa.pub
+*.pem
+*.pub
+
+# Logs and Runtime Files
+*.log
+*.pid
+*.out
+*.err
+
+# Temporary Files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+*.vscode/
+*.idea/
+~*
+
+# System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
